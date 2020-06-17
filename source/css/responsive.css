@@ -1,0 +1,14 @@
+@media screen and (max-width: 1177px){
+
+    .iphone{width: 50%; padding-top: 400px; bottom: 20px; right: 0;}
+
+}
+
+@media screen and (max-width: 675px){
+
+    section.section-home .txt-home {padding: 20px 80px;}
+
+    .iphone,.background-elephant{display: none;}
+
+    .background-number-one{ bottom: -120px;}
+}
