@@ -1,0 +1,161 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+html,body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #120A37;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* xx RESET xx */
+
+
+
+/* SECTION-HOME */
+section.section-home{
+    width: 100%;
+    background-color: #120A37;
+    color: white;
+    position: relative;
+}
+
+section.section-home .btn-login{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+section.section-home .btn-login p{
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 13px 0;
+    padding: 5px 39px;
+    text-transform: uppercase;
+    background-color: #6925D9;
+    border-radius: 4px;
+}
+
+
+section.section-home .txt-home {
+    padding: 20px 0px 60px 60px;
+    margin: 50px 0;
+    position: relative;
+    z-index: 2;
+}
+section.section-home .txt-home h2{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+section.section-home .txt-home span{
+    text-transform: uppercase;
+    color: #6925D9;
+    font-weight: bolder;
+}
+
+
+section.section-home .txt-home p{
+    color: white;
+    font-size: 16px;
+    color: antiquewhite;
+    text-align: left;
+    width: 300px;
+}
+
+.btn-view-more{
+    margin: 50px 0;
+}
+
+section.section-home .btn-view-more a{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #6925D9;
+    border-radius: 4px;
+    padding: 5px 25px;
+}
+
+.iphone{
+    width: 22%;
+    height: 450px;
+    background-image: url("../images/Sem Título (5).png");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    z-index: 2;
+    text-align: center;
+    line-height: 450px;
+    color: red;
+}
+
+.background-number-one{
+    width: 180px;
+    height: 200px;
+    background-image: url("../images/icon-01-home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    z-index: 0;
+}
+
+.background-elephant{
+    width: 50%;
+    height: 400px;
+    background-image: url("../images/elephant-home.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+/* xx SECTION-HOME xx*/
+
+/*  SECTION-MEMBERS */
+
+section.section-members{
+    height: 577px;
+    background-color: white;
+    position: relative;
+}
+
+section.section-members h2{
+    color: #6925D9;
+    text-align: center;
+}
+
+
+/*  NAV- AREA-LOGIN */
+nav.area-login{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: red;
+}
