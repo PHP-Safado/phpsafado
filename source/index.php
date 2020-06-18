@@ -43,16 +43,10 @@
 
 <!--svg-curva-->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
-     viewBox="0 0 1422 154" width="1280" height="154pt">
-    <defs>
-        <clipPath id="_clipPath_sLVQ8tvNgIdUpZ6w6HtYfeHH5pn7kyRw">
-            <rect width="1422" height="154"/>
-        </clipPath>
-    </defs>
-    <g clip-path="url(#_clipPath_sLVQ8tvNgIdUpZ6w6HtYfeHH5pn7kyRw)">
-        <rect width="1422" height="154" style="fill:rgb(0,0,0)" fill-opacity="0"/>
-        <path d=" M -9.829 0 Q 190.558 42.04 300.874 51.333 C 500.495 68.15 667.745 19.579 868.065 17.111 C 1189.538
-         13.151 1376.527 58.791 1429 154 L 1429 154 L -14 154 L -9.829 0 Z "
+     viewBox="0 0 1000 154" width="100%" height="154pt">
+    <g clip-path="url(#_clipPath_Cg1ZESbAFlCT18z8mFrAYQyRq7MN1mZY)">
+        <rect width="1000" height="154" style="fill:rgb(0,0,0)" fill-opacity="0"/>
+        <path d=" M -9.228 0 Q 220.044 45.862 346.262 56 C 574.656 74.345 766.014 21.358 995.21 18.667 C 1363.021 14.347 1576.963 64.136 1637 168 L 1637 168 L -14 168 L -9.228 0 Z "
               fill="rgb(255,255,255)"/>
     </g>
 </svg>
@@ -69,11 +63,40 @@
 
 
 
-<nav class="area-login">
+<div class="area-login">
+    <div class="btn-leave">
+        <h1>X</h1>
+    </div><!--btn-leave-->
     <div class="box-login">
+        <header>
+            <span class="bullets"></span>
+            <span class="bullets"></span>
+            <span class="bullets"></span>
+        </header>
 
+        <h2>Área de login</h2>
+
+        <form>
+            <span>Email:</span>
+            <label>
+                <input type="text" name="email" required autofocus>
+            </label>
+            <span>Senha:</span>
+            <label>
+                <input type="password" name="password" required>
+            </label>
+
+            <input type="checkbox" id="conect">
+            <label for="conect">Manter-me Conectado</label> <br>
+
+            <input type="submit" value="Entrar">
+        </form>
     </div> <!--box-login-->
-</nav> <!--area-login-->
+</div> <!--area-login-->
+
+
 <script src="js/funtion.js"></script>
+
+
 </body>
 </html>

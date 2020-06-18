@@ -9,7 +9,7 @@ html,body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: #120A37;
-    overflow-x: hidden;
+
 }
 
 .container {
@@ -153,9 +153,129 @@ section.section-members h2{
 
 
 /*  NAV- AREA-LOGIN */
-nav.area-login{
+div.area-login{
     width: 100%;
     height: 100%;
-    z-index: 10;
-    background: red;
+    padding-top: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: rgba(246, 246, 246, 0.6);
+    display: none;
 }
+
+div.box-login{
+    min-width: 600px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    box-shadow: 2px 2px 50px 10px rgba(93, 92, 92, 0.41);
+}
+
+div.box-login header{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    background: #6925D9;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+div.box-login header .bullets{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+div.box-login form{
+    padding: 0 13%;
+    margin: 30px 0;
+}
+
+div.box-login h2{
+    text-transform: uppercase;
+    color: #6925D9;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+div.box-login span{
+    color: rgba(93, 93, 93, 0.89);
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div.box-login form input[type="text"],input[type="password"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: #ECECEC;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    margin: 7px 0;
+}
+
+div.box-login form input[type="checkbox"]{
+    margin: 20px 10px 0 0;
+    height: 20px;
+    width: 20px;
+    border: 10px solid #ECECEC;
+}
+
+div.box-login form label{
+    color: rgba(59, 59, 59, 0.89);
+    position: relative;
+    top: -4px;
+    font-size: 15px;
+}
+
+div.box-login form input[type="submit"]{
+    position: relative;
+    left: 125px;
+    line-height: 40px;
+    border: 4px solid #6925D9;
+    color: #6925D9;
+    border-radius: 6px;
+    background: transparent;
+    outline: none;
+    padding: 0 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+div.box-login form input[type="submit"]:hover{
+   background: #6925D9;
+    color: white;
+}
+
+div.btn-leave{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    cursor: pointer;
+    z-index: 4;
+}
+
+
+
