@@ -55,6 +55,7 @@
 
 <section class="section-members" style="background: white;position: relative;top: -44px">
     <h2>ORGANIZADORES DO GRUPO</h2>
+    <p>GuiMont</p>
 </section><!--section-members-->
 
 
